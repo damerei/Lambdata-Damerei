@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
                  name="Lambdata-Damerei",
-                 version="0.0.1",
+                 version="0.0.2",
                  author="damerei",
                  description="A collection of Data Science Helper functions",
                  long_description=LONG_DESCRIPTION,
