@@ -1,0 +1,7 @@
+README.md
+setup.py
+Lambdata_Damerei.egg-info/PKG-INFO
+Lambdata_Damerei.egg-info/SOURCES.txt
+Lambdata_Damerei.egg-info/dependency_links.txt
+Lambdata_Damerei.egg-info/requires.txt
+Lambdata_Damerei.egg-info/top_level.txt
