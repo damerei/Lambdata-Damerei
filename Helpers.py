@@ -43,10 +43,11 @@ class Continuous(Checks):
         self._n = None
         self._times = None
     
+     """End time of the process."""
     @property
     def t(self):
-        """End time of the process."""
         return self._t
+    
     
     @t.setter
     def t(self, value):
