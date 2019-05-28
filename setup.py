@@ -1,4 +1,4 @@
-""" Lambdata-Damerei2 - a collection of Data Science helper functions
+""" Lambdata-Damerei - a collection of Data Science helper functions
     """
 
 import setuptools
@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-                 name="Lambdata-Damerei2",
+                 name="Lambdata-Damerei",
                  version="0.0.2",
                  author="damerei",
                  description="A collection of Data Science Helper functions",
