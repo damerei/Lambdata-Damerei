@@ -28,10 +28,10 @@ def _check_nonnegative_number(self, value, name):
     self._check_number(value, name)
     if value < 0:
         raise ValueError(name + " value must be nonnegative.")
-            
-            def _check_zero(self, zero):
-                if not isinstance(zero, bool):
-                    raise TypeError("Zero inclusion flag must be a boolean.")
+
+def _check_zero(self, zero):
+    if not isinstance(zero, bool):
+        raise TypeError("Zero inclusion flag must be a boolean.")
 
 
 class Continuous(Checks):
@@ -43,8 +43,9 @@ class Continuous(Checks):
         self._n = None
         self._times = None
     
-     """End time of the process."""
+    
     @property
+    
     def t(self):
         return self._t
     
@@ -70,8 +71,8 @@ def _check_time_sequence(self, times):
 
 
 def _linspace(self, end, n, zero=True):
-"""Generate a field from 0 to end for n increments."""
-    if zero:
-        return np.linspace(0, end, n + 1)
-    else:
-        return np.linspace(1.0 * end / n, end, n)
+    """Generate a field from 0 to end for n increments."""
+        if zero:
+            return np.linspace(0, end, n + 1)
+                else:
+return np.linspace(1.0 * end / n, end, n)
