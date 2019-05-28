@@ -33,9 +33,7 @@ raise TypeError("Zero inclusion flag must be a boolean.")
 
 
 class Continuous(Checks):
-    """Base class to be subclassed to most process classes.
-        Contains properties and functions related to times and continuous-time
-        processes.
+    """Base class encompassing the properties for continuous time stochastic processes."
         """
     
     def __init__(self, t=1):
